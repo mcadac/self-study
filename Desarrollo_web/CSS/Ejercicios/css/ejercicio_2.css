@@ -1,0 +1,29 @@
+body{
+
+  margin: 20px;
+  font-family: verdana;
+}
+
+h1.titulo{
+
+  background-color: aliceblue;
+  text-align: center;
+  padding: 10px;
+}
+
+.resaltado_subtitle{
+  background-color: yellow;
+  color: black;
+}
+
+#principalMenu{
+  padding: 10px 10px;
+}
+
+a[href],
+a[href='https://www.google.com'],
+img[src$='svg']  -----> el signo $ indicaque busque al final del valor
+img[src^='svg']  -----> el signo ^ indica que el valor del atributo debe iniciar con
+img[src~='svg']  -----> cuando el valor tiene espacios, este buscara la palabra completa entre todos los valores
+img[src|='icono'] -----> buscara el valor al inicio o en todo el contenido.
+[title*='descripcion'] -----> busca todas las etiquetas con el atributo title y con el valor indicado

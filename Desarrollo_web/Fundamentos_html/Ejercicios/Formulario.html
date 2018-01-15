@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta  name="viewport" content="width=device-width,user-scalable=no"/>
+    <meta name="author" content="McadaC"/>
+    <title>Formularios</title>
+  </head>
+
+  <body>
+    <h1>Formularios</h1>
+    <ol>
+      <li>Las etiquetlas de los formularios se dividen en 2 tipos, <strong>captura</strong> de datos y
+        <strong>enunciado</strong></li>
+      <li>Etiquetas</li>
+      <ul>
+        <li><strong>fieldset :</strong> Envuelve todo el contenido despues de la etiqueta <strong>form</strong></li>
+        <li><strong>legend :</strong> Establece un titulo al formulario (ubicado en el fieldset)</li>
+        <li><strong>input :</strong>
+          <ul>
+            <li>Tiene un atributo type que ofrece diversas opciones de tipos de datos.</li>
+            <li><em>atributo max y min</em> = aplica para <b>tipos numericos</b>, indicando el valor maximo o minimo que puede tomar</li>
+            <li><em>atributo step = </em> aplica para <b>tipos num</b>, indica de a cuanto se realizara el <b>incremento</b> o <b>decremento</b> del campo
+              e.g 5 en 5 (10,15,20)</li>
+          </ul>
+          <li><strong>select :</strong> Campo de selección de opciones con una etiqueta interna "<em>option</em>"</li>
+          <li><strong>textarea : </strong> tiene 2 atributos <em>rows</em> y <em>cols</em> para ajustar el tamaño</li>
+          <li><b>label :</b> tiene un atributo <em>for</em> que relaciona con el <em>id</em> de un etiqueta input</li>
+        </li>
+      </ul>
+    </ol>
+
+
+    <form autocomplete="on" name="formulario">
+      <fieldset>
+        <legend>Formulario</legend>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre"/>
+        <select>
+          <option value="1">Java language</option>
+          <option value="2">Html language</option>
+        </select>
+        <textarea rows="4" cols="4"></textarea>
+      </fieldset>
+    </form>
+
+
+  </body>
+
+</html>

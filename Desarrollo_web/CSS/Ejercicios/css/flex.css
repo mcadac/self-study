@@ -1,0 +1,52 @@
+
+body{
+  font-size: 40px;
+  font-family: Verdana;
+}
+
+.bloque1{
+    color: #333;
+    background-color: blue;
+    order: 2;
+}
+
+.bloque2{
+    color: #333;
+    background-color: red;
+    order: 7;
+}
+
+.bloque3{
+    color: #333;
+    background-color: yellow;
+    order: 5;
+}
+
+.bloque4{
+    color: #333;
+    background-color: green;
+    order: 6;
+}
+
+.bloque5{
+    color: #333;
+    background-color: pink;
+    order: 3;
+}
+
+.bloque6{
+    color: #333;
+    background-color: brown;
+    order: 1;
+}
+
+.bloque7{
+    color: #333;
+    background-color: orange;
+    order: 4;
+}
+
+.contenedor{
+  display: flex;
+  flex-flow: row nowrap;
+}

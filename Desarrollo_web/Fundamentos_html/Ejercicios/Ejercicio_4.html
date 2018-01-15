@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="author" content="McadaC"/>
+    <meta name="viewport" content="width=device-width,user-scalable=no"/>
+  </head>
+
+  <body>
+    <form action="">
+      <fieldset>
+
+        <h1>Registro de una nueva tienda</h1>
+        <p>
+          <label for="nombre" >Nombre de usuario</label>
+          <br />
+          <input id="nombre" type="text" name="nomber" placeholder="e.g Camilo" required />
+        </p>
+
+        <p>
+          <label for="email">Email</label>
+          <br />
+          <input id="email" type="email" name="email" placeholder="e.g text@test.com" required />
+        </p>
+
+        <p>
+          <label for="edad">Edad</label>
+          <br />
+          <input id="edad" type="number"/ name="edad" placeholder="10" required />
+        </p>
+
+        <p>
+          <label for="genero">Genero</label>
+          <br />
+          <input id="genero" type="radio" name="genero"/> Masculino
+          <br />
+          <input id="genero" type="radio" name="genero"/> Femenino
+        </p>
+
+        <p>
+          <label for="recomendado">Recomendado por</label>
+          <br />
+          <select name="recomendado">
+            <option value="google">Google</option>
+            <option value="facebook">Facebook</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="comment">Comentarios</label>
+          <br />
+          <textarea name="comment"></textarea>
+        </p>
+
+        <p>
+          <input type="checkbox" name="conditions"/>
+          <label for="conditions">Acepta terminos y condiciones</label>
+        </p>
+
+        <p>
+          <input type="submit" value="Registrar"/>
+        </p>
+
+      </fieldset>
+    </form>
+  </body>
+
+</html>

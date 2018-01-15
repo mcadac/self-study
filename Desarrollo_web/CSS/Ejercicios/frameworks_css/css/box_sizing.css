@@ -1,0 +1,63 @@
+
+#example_1 *{
+  box-sizing: content-box;
+}
+
+#contenedor_content_box{
+  width: 90%;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#cuadrado_content_box{
+  width: 50%;
+  height: 300px;
+  padding: 20px;
+  background-color: yellow;
+  border: 1px solid black;
+  text-align: center;
+}
+
+
+
+
+
+#example_2 *{
+  box-sizing: padding-box;
+}
+
+#contenedor_padding_box{
+  width: 90%;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#cuadrado_padding_box{
+  width: 50%;
+  height: 300px;
+  padding: 20px;
+  background-color: red;
+  border: 1px solid black;
+  text-align: center;
+}
+
+
+
+#example_3 *{
+  box-sizing: border-box;
+}
+
+#contenedor_border_box{
+  width: 90%;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#cuadrado_border_box{
+  width: 50%;
+  height: 300px;
+  padding: 20px;
+  background-color: blue;
+  border: 1px solid black;
+  text-align: center;
+}

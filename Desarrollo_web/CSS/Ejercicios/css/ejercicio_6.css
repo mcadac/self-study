@@ -1,0 +1,74 @@
+body{
+  margin: 20px;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+}
+
+#contenido{
+  display: flex;
+  flex-direction: column;
+}
+
+#destacados .contenedor > div{
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255,255,0,0.3);
+}
+
+#destacados{
+  text-align: center;
+  background-color: green;
+  border: solid 0px;
+}
+
+#destacados h1 {
+  text-shadow: 0 0 3px white;
+}
+
+#disponible{
+  text-align: center;
+  background-color: orange;
+  border: solid 0px;
+}
+
+#disponible .contenedor > div{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  width: 25%;
+  border: solid 5px coral;
+  box-shadow: 4px 8px #D46A6A;
+}
+
+#ofertas .contenedor > div{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  width: 33%;
+  box-shadow: 4px 8px;
+}
+
+#ofertas h1{
+  text-shadow: 1px 1px 2px white, 0 0 30px #D46A6A;
+}
+
+#ofertas{
+  text-align: center;
+  background-color: yellow;
+  border: solid 0px;
+}
+
+footer{
+  margin-top: 20px;
+  padding-top: 10px;
+  clear: both;
+  border-top: solid 2px;
+  text-align: center;
+}

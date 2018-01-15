@@ -1,0 +1,95 @@
+
+header{
+  background-color: #5b7989;
+  text-align: left;
+  display: flex;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
+
+}
+
+header > h1{
+  width: 50%;
+  color: white;
+  text-shadow: 2px 2px #02010a;
+  padding-left: 2%;
+}
+
+header > nav{
+  width: 50%;
+  text-align: right;
+  padding-top: 30px;
+  padding-right: 2%;
+}
+
+nav > a{
+  color: white;
+}
+
+nav > a:hover{
+  text-decoration: none;
+}
+
+#main_image{
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  background-color:  #82c3a6;
+}
+
+#img_main{
+  width: 70%;
+}
+
+#general_images{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  background-color: #d5c75f;
+  padding-top: 5%;
+  padding-bottom: 4%;
+}
+
+#general_images div{
+  width: 50%;
+}
+
+#general_images img{
+    border: 1px solid;
+}
+
+#img_paisajes{
+  width: 70%;
+}
+
+#img_retratos{
+  width: 70%;
+}
+
+#img_paisajes:hover{
+    transform: rotate(10deg);
+    border: 2px solid #82c3a6;
+}
+
+#img_retratos:hover{
+  transform: translate(20px, -5px);
+  border: 2px solid #82c3a6;
+}
+
+.footer{
+  display: flex;
+  background-color: #C6d5c5;
+  -webkit-border-radios:0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
+  text-align: left;
+  text-indent: 2cm;
+}
+
+.footer > div > h1{
+
+}
+
+.footer > div{
+  width: 25%;
+}

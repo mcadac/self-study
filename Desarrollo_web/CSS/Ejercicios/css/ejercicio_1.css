@@ -1,0 +1,29 @@
+body{
+  background-color: black;
+  color: white !important;
+  font-family: Verdana;
+
+}
+
+body p{
+  color: green;
+}
+
+a{
+  color: inherit;
+}
+
+div{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+body{
+
+  color: red;
+
+}
+
+p{
+  color: blue;
+}

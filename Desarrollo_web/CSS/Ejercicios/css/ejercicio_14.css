@@ -1,0 +1,36 @@
+@media print {
+  img{
+    width: 100%;
+  }
+
+  h1{
+    text-align: center;
+  }
+}
+
+@media screen {
+
+  h1{
+    text-align: right;
+  }
+}
+
+/** Para celulares */
+@media (max-width: 420px) {
+  h1{
+    text-align: center;
+  }
+  p{
+    color: red;
+  }
+}
+
+/** para tablets */
+@media (min-width: 421px) and (max-width: 720px) {
+  h1{
+    text-align: left;
+  }
+  p{
+    color: blue;
+  }
+}

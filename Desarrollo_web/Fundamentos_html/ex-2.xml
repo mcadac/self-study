@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="" fecha="">
+    <cliente>
+        <nombre></nombre>
+        <telefono></telefono>
+    </cliente>
+
+    <articulos id="">
+        <descripcion></descripcion>
+        <precio-unitario></precio-unitario>
+        <precio-final></precio-final>
+        <cantidad></cantidad>
+    </articulos>
+    <precio-total></precio-total>
+</factura>

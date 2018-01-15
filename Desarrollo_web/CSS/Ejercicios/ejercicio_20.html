@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="author" content="mcadac"/>
+  <title>Key frame</title>
+  <style media="screen">
+    #contenedor{
+      width: 1000px;
+      height: 600px;
+      border: 2px solid;
+      margin: 0;
+      background-color: blue;
+    }
+
+    .circule{
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      border-radius: 50px;
+      margin: 2vh;
+      float: left;
+      animation: miAnimacion 4s;
+    }
+
+    @-webkit-keyframes miAnimacion{
+
+      0%{opacity: 0;}
+      25%{ opacity: 0.25; float: right;}
+      50%{ opacity: 0.50; float: left;}
+      75%{ opacity: 0.75; float: right;}
+      100%{ opacity: 1; float: left;}
+    }
+
+
+
+  </style>
+</head>
+<body>
+  <section id="contenedor">
+    <div class="circule">
+
+    </div>
+    <div class="circule">
+
+    </div>
+  </section>
+
+</body>
+</html>
