@@ -1,0 +1,48 @@
+.cinema-body{
+  background: #D0D0D0;
+}
+
+/** navbar-inverse  ==  navbar-dark in bootstrap 4*/
+.navbar-dark{
+  background: #2471A3;
+  height: 10%;
+  border: none;
+}
+
+/* Clase para darle estilos al jumbotron */
+.jumbotron {
+  background: #00678E;
+  min-height: 500px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
+
+.container-fluid{
+  margin-top: 40px;
+}
+
+.titulo-cartelera{
+  background: #051189;
+  min-height: 45px;
+}
+
+.movie-row{
+  background: #2471A3;
+  min-height: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.movie-column{
+  background: ;
+  margin-top: 5px;
+  min-height: 330px;
+  border: 1px dashed gray;
+}
+
+
+@media (max-width: 770px) {
+  .right-column{
+    display: none;
+  }
+}
