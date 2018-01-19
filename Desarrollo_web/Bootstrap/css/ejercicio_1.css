@@ -1,5 +1,14 @@
 .cinema-body{
-  background: #D0D0D0;
+
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-img{
+  width: 10%;
+  height: 100%;
 }
 
 /** navbar-inverse  ==  navbar-dark in bootstrap 4*/
@@ -11,7 +20,12 @@
 
 /* Clase para darle estilos al jumbotron */
 .jumbotron {
-  background: #00678E;
+
+  background-image: url("../img/cartelera.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
   min-height: 500px;
   border-radius: 0px !important;
   margin-bottom: 0px;
@@ -45,6 +59,23 @@
 
 .left-column{
   border-right: 1px dashed white;
+}
+
+.welcome-title{
+  color: white;
+  margin-right: 10px;
+}
+
+/** Se utiliza en el logo del jumbotron*/
+.jumbotron-img{
+  margin-top: 20px;
+}
+
+/** Se utiliza en el texto del componente con la clase jumbotron */
+.jumbotron-text{
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
 }
 
 @media (max-width: 770px) {
