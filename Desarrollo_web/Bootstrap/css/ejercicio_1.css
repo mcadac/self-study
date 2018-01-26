@@ -13,7 +13,7 @@
 
 /** navbar-inverse  ==  navbar-dark in bootstrap 4*/
 .navbar-dark{
-  background: #050C52;
+  background: #050C5295;
   height: 10%;
   border: none;
 }
@@ -25,45 +25,9 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-
   min-height: 500px;
   border-radius: 0px !important;
   margin-bottom: 0px;
-}
-
-/** Agrega estilos a la clase container-fluid de bootstrap */
-.container-fluid{
-  margin-top: 40px;
-}
-
-.titulo-cartelera{
-  background: #050C52;
-  min-height: 45px;
-}
-
-.movie-row{
-  background: #00678E;
-  min-height: 350px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.movie-column{
-  background: #00678E;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  min-height: 330px;
-  border: 1px dashed white;
-}
-
-
-.left-column{
-  border-right: 1px dashed white;
-}
-
-.welcome-title{
-  color: white;
-  margin-right: 10px;
 }
 
 /** Se utiliza en el logo del jumbotron*/
@@ -76,6 +40,71 @@
   font-size: 16px;
   color: white;
   margin-top: 20px;
+}
+
+/** Agrega estilos a la clase container-fluid de bootstrap */
+.container-fluid{
+  margin-top: 40px;
+}
+
+.titulo-cartelera{
+  background: #050C5295;
+  min-height: 45px;
+}
+
+.movie-row{
+  background: #00678E80;
+  min-height: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.movie-column{
+  margin-top: 5px;
+  margin-bottom: 15px;
+  min-height: 330px;
+  border: 1px dashed #FFFFFF;
+}
+
+.left-column{
+  border-right: 1px dashed white;
+}
+
+.welcome-title{
+  color: white;
+  margin-right: 10px;
+}
+
+.redes-sociales{
+  margin-top: 20px;
+}
+
+.img-social{
+  width: 40px;
+  height: 40px;
+}
+
+.titulo-text{
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+  padding: 10px;
+}
+
+.movie-title{
+  color: white;
+  font-size: 14px;
+}
+
+.img-movie{
+  height: 260px;
+  padding: 6px;
+  margin-top: 22px;
+}
+
+.services-text {
+  color: #FFFFFF;
+  margin-top: 13px;
 }
 
 @media (max-width: 770px) {
@@ -93,7 +122,25 @@
   }
 
   .jumbotron{
-    min-height: 350px;
+    min-height: 400px;
+  }
+
+  .jumbotron-img{
+    margin-top: 20px;
+  }
+
+  h2{
+    font-size: 22px;
+  }
+
+  .titulo-cartelera{
+    font-size: 15px;
+  }
+
+  .img-movie {
+    height: 133px;
+    padding: 6px;
+    margin-top: 22px;
   }
 
 }

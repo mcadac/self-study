@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="author" content="mcadac"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+    <link rel="stylesheet" href="lib/bootstrap-4/css/bootstrap.min.css"/>
+    <title>Forms with BS</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" role="form">
+        <legend>Form with Bootstrap</legend>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" class="form-control"/>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone number</label>
+          <input type="number" name="phone" id="phone" class="form-control"/>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" name="email" id="email" class="form-control"/>
+        </div>
+
+        <div class="form-group">
+          <label for="hobbie_1">Read</label>
+          <input type="checkbox" name="hobbie_1" id="hobbie_1" class="form-control"/>
+        </div>
+
+        <div class="form-group">
+          <label for="hobbie_2">Write</label>
+          <input type="checkbox" name="hobbie_2" id="hobbie_2" class="form-control"/>
+        </div>
+
+        <div class="form-group">
+          <div class="checkbox">
+            <label for="hobbie_3">Video games</label>
+            <input type="checkbox" name="hobbie_3" id="hobbie_3" class="form-control"/>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="radio">
+            <label><input type="radio" name="genere" id="genere_man"/>Man</label>
+          </div>
+          <label><input type="radio" name="genere" id="genere_female"/>Female</label>
+        </div>
+
+        <select multiple class="form-control">
+          <option value="">First</option>
+          <option value="">Second</option>
+          <option value="">Third</option>
+          <option value="">Fourth</option>
+        </select>
+
+        <div class="form-group">
+          <label for="comment">Comments</label>
+          <textarea name="comment" id="comment" rows="8" cols="40" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+          <input type="button" name="button_send" value="send" class="btn btn-secondary"/>
+        </div>
+
+      </form>
+    </div>
+  </body>
+
+</html>
