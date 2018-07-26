@@ -1,0 +1,18 @@
+
+master:
+  spring:
+    name: Development
+    lastName: Espitia
+    age: 24
+
+logging:
+  file: dev.log
+
+info:
+  app:
+    name: Spring Boot Actuator Application
+    description: This is my first Working Spring Actuator Examples
+    version: 0.0.1-SNAPSHOT
+  helpline:
+    email: admin@dineshonjava.com
+    phone: 0120-000001100
