@@ -7,7 +7,7 @@ public class YahooFinancie {
 
     public static BigDecimal getPrice(final String ticker){
 
-        return BigDecimal.valueOf(Math.random() * 200 + 1);
+        return BigDecimal.valueOf(Math.random() * 500 + 1);
 
     }
 
