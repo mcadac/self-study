@@ -6,7 +6,7 @@ package edu.mcadac.java.chapter4.beinglazy;
 public class Heavy {
 
     public Heavy(){
-        System.out.printf("Heavy created");
+        System.out.println("Heavy created");
     }
 
 
