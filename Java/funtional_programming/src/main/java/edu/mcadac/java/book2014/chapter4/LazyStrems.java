@@ -1,8 +1,14 @@
-package edu.mcadac.java.chapter4.beinglazy;
+/*
+ * Copyright 2018, Banco Colpatria Multibanca Colpatria S.A. Digital Factory - Colpatria
+ * http://www.colpatria.com
+ *
+ * All rights reserved
+ */
+
+package edu.mcadac.java.book2014.chapter4;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class LazyStrems {

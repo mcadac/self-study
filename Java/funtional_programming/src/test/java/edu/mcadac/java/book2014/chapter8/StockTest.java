@@ -5,7 +5,7 @@
  * All rights reserved
  */
 
-package edu.mcadac.java.chapter8;
+package edu.mcadac.java.book2014.chapter8;
 
 import java.util.stream.Stream;
 import org.junit.Test;

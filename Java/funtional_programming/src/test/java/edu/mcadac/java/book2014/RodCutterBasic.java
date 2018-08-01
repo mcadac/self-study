@@ -1,6 +1,11 @@
-package edu.mcadac.java.chapter4.beinglazy;
+/*
+ * Copyright 2018, Banco Colpatria Multibanca Colpatria S.A. Digital Factory - Colpatria
+ * http://www.colpatria.com
+ *
+ * All rights reserved
+ */
 
-import org.junit.Test;
+package edu.mcadac.java.book2014;
 
 import java.util.Arrays;
 import java.util.List;

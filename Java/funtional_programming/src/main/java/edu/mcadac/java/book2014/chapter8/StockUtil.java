@@ -5,7 +5,7 @@
  * All rights reserved
  */
 
-package edu.mcadac.java.chapter8;
+package edu.mcadac.java.book2014.chapter8;
 
 import java.math.BigDecimal;
 import java.util.function.Predicate;
